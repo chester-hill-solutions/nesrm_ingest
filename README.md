@@ -2,6 +2,11 @@
 
 This is the lambda function to handle NES Relationship Manager Ingestion.
 
+## Develop
+```bash
+NODE_ENV=development
+```
+
 ## Deploy
 
 ```bash
