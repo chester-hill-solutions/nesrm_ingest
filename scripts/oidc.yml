@@ -18,7 +18,7 @@ Resources:
             Condition:
               StringLike:
                 ## THESE ARE CASE SENSITIVE!
-                'token.actions.githubusercontent.com:sub': ['repo:chester-hill-solutions/nesrm_ingest']
+                'token.actions.githubusercontent.com:sub': ['repo:chester-hill-solutions/nesrm_ingest:*']
               StringEqualsIgnoreCase:
                 'token.actions.githubusercontent.com:aud': sts.amazonaws.com
       Policies:
